@@ -103,8 +103,8 @@ def getCSV(term, searchIndex):
     of = term + ".csv"
     output = open(of, "a")
 
-    username = 'newTryNow'  # enter your username here
-    password = 'WhatOnEarth!'  # enter your password here
+    username = '###########'  # enter your username here
+    password = '###########'  # enter your password here
 
     # this code logs into the site
     time.sleep(2)
