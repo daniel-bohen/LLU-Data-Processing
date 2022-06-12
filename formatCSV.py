@@ -11,8 +11,8 @@ def getCSV(term, folder, total):
     fileName = term + '.csv'
     c = open(fileName, 'r')
 
-    # ofName = "WL_" + term + '.csv'
-    # o = open(ofName, "w")
+    ofName = "WL_" + term + '.csv'
+    o = open(ofName, "w")
 
     lines = c.readlines()
     _ = 1
@@ -31,7 +31,7 @@ def getCSV(term, folder, total):
 
         output = line + output
 
-        # o.write(output)
+        o.write(output)
 
         f.close()
 
@@ -39,11 +39,6 @@ def getCSV(term, folder, total):
 
     print(dollar)
     c.close()
-
-
-
-
-
 
 
 def main():
