@@ -1,8 +1,7 @@
 import json, csv
 
 def main():
-    getCSV('epidural injection AND spine') #2923
-    # 11/01/2017 - 06/09/2022 935
+    getCSV('epidural injection AND spine')
 
 
 def getCSV(term):
