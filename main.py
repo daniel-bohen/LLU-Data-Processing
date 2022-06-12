@@ -139,7 +139,6 @@ def getCSV(term, searchIndex):
         summary = fsummary('co_document_0', driver)
         citation = fIDstring('cite0', driver)
 
-        # output.write('\n"' + location + '","' + date + '","' + name + '","' + ver(summary) + '","' + plaintiff + '","' + defendant + '","' + citation + '","' + summary + '"')
         output.write('\n"' + location + '","' + date + '","' + name + '","' + ver(summary) + '","' + plaintiff + '","' + defendant + '","' + citation + '"')
 
         fName = str(searchIndex) + "/" + str(_) + ".txt"
